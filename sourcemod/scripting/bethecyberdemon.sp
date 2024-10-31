@@ -834,7 +834,7 @@ public Action Cmd_Cyberdemon(int client, int args)
 	if (bMadeBoss)
 		ReplyToCommand(client, "Made %s the cyberdemon", szTargetName);
 	if (bNotify)
-		ReplyToCommand(client, "Can't made %s the cyberdemon because there is %i cyberdemons. Check sm_cyberdemon_max_cyberdemons for more info");
+		ReplyToCommand(client, "Can't made %s the cyberdemon because there is %i cyberdemons. Check sm_cyberdemon_max_cyberdemons for more info", szTargetName, iCount);
 	return Plugin_Handled;
 }
 
