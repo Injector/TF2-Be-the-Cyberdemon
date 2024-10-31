@@ -5,7 +5,9 @@ Allows admins to play as Cyberdemon from the Doom 1993
 ## Commands:
 
 `sm_cyberdemon` - Admin flag: Ban - Turn yourself into the Cyberdemon
+
 `sm_cyberdemon <target>` - Uses sm_cyberdemon_others override access to turn target into the Cyberdemon
+
 
 ## Overrides:
 
@@ -14,11 +16,17 @@ Allows admins to play as Cyberdemon from the Doom 1993
 ## ConVars:
 
 `sm_cyberdemon_version` - Plugin version
+
 `sm_cyberdemon_no_dominations` 0 - Allow cyberdemon to dominate on players? 0 - Allow, 1 - Allow, but clear on cyberdemon death, 2 - Disallow
+
 `sm_cyberdemon_melee_push` 1 - Push away victims after cyberdemon's punch? 0 - No, 1 - Yes
+
 `sm_cyberdemon_default_rocket` 0 - Use default 3D soldier rocket instead of sprites? 0 - No, 1 - Yes
+
 `sm_cyberdemon_max_cyberdemons` 8 - Max cyberdemons to have to avoid edict overflow: 0 - No limit
+
 `sm_cyberdemon_no_heal` 0 - Disallow medics to heal cyberdemon? 0 - Allow, 1 - Disallow
+
 
 ## Showcase video: 
 Maybe later
@@ -29,17 +37,25 @@ Maybe later
 ## Statistics:
 
 Cyberdemon rocket speed: 1500 hammer units
+
 Cyberdemon rocket damage: 180
+
 Health: 4000
+
 Melee attack damage: 97.5 + optional push velocity 500 hammer units
+
 Rocket shoot cooldown 0.65 seconds
 
+
 If victim's health above 700 (assuming victim is a boss), then Cyberdemon's damage will raise to (victim health + 5) instead of 180
+
 
 ## Controls:
 
 Right Mouse - Shoot the rocket
+
 Aim on enemy - Play Cyberdemon's roar
+
 
 ## Features:
 
