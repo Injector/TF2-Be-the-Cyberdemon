@@ -1,0 +1,19 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel_upright"
+	"$spriteorigin" "[ 0.50 1.0 ]"
+	"$no_fullbright" 1
+
+	"$basetexture" "doom/cyberdemon/v2/death"
+                "$AlphaTest" "1"
+
+	"Proxies" 
+    	{ 
+      		"AnimatedTexture" 
+       		{ 
+          			"animatedTextureVar" "$basetexture" 
+          			"animatedTextureFrameNumVar" "$frame" 
+          			"animatedTextureFrameRate" "7"
+       		}
+   	 }
+}

@@ -1,0 +1,19 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel_upright"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$no_fullbright" 1
+
+	"$basetexture" "doom/proj_rocket/v1/back"
+                "$AlphaTest" "1"
+
+	"Proxies" 
+    	{ 
+      		"AnimatedTexture" 
+       		{ 
+          			"animatedTextureVar" "$basetexture" 
+          			"animatedTextureFrameNumVar" "$frame" 
+          			"animatedTextureFrameRate" "5"
+       		}
+   	 }
+}

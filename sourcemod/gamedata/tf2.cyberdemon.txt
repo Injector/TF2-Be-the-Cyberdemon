@@ -1,0 +1,41 @@
+"Games"
+{
+	"tf"
+	{
+		"Offsets"
+		{
+			// Use https://asherkin.github.io/vtable/ to update offsets
+			"CTFBaseProjectile::IsDestroyable"
+			{
+				"windows"	"231"
+				"linux"		"232"
+			}
+			"CTFProjectileRocket::IsDeflectable"
+			{
+				"windows"	"158"
+				"linux"		"159"
+			}
+			
+		}
+		"Signatures"
+		{
+			// https://github.com/caxanga334/tf-bewithrobots-redux/blob/master/addons/sourcemod/gamedata/tf2.bwrr.txt
+			"CTFPlayer::CanBeForcedToLaugh" // string --> "#TF_Powerup_Knocked_Out"
+			{
+				"library"	"server"
+				"windows"	"\xA1\x2A\x2A\x2A\x2A\x56\x8B\xF1\x85\xC0\x74\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x74\x2A\x8B\x06"
+				"linux"		"@_ZN9CTFPlayer18CanBeForcedToLaughEv"
+			}
+		}
+		"Functions"
+		{
+			"CTFPlayer::CanBeForcedToLaugh"
+			{
+				"signature" "CTFPlayer::CanBeForcedToLaugh"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+			}
+		}
+	}
+}
